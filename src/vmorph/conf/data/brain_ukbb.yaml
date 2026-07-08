@@ -1,0 +1,15 @@
+name: brain_ukbb
+ndim: 3
+
+batch_size: 6
+num_workers: 8
+shuffle: True
+
+modality: t1t1
+crop_size: [176, 192, 176]
+use_transformation: False
+
+data_dir: #DATADIR
+train_csv: #TRAIiN_CSV 
+val_csv: #VAL_CSV
+test_csv: #TEST_CSV

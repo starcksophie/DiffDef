@@ -1,0 +1,7 @@
+defaults:
+  - data: brain_camcan
+  - model: dl
+
+metric_groups: ["disp_metrics", "image_metrics", "seg_metrics"]
+analyse: True
+gpu:

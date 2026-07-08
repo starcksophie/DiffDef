@@ -1,0 +1,19 @@
+defaults:
+  - _self_
+  - data: brain_ukbb
+  - network: unet
+  - transformation: dense
+  - loss: mse
+  - training: training
+
+metric_groups1: ["image_metrics", disp_metrics]
+metric_groups: ["disp_metrics", "image_metrics", "seg_metrics"]
+hparam_metrics: ["loss", "mean_dice", "folding_ratio"]
+hparam_metrics1: ["loss", folding_ratio]
+wandb_disable: "False"
+gpu: 0
+
+hydra:
+    job:
+        chdir: True
+

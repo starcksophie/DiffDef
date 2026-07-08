@@ -1,0 +1,9 @@
+type: mirtk
+mirtk_params:
+  work_dir:
+  mirtk_path:
+  sim: NMI
+  model: SVFFD
+  ds: 8
+  be: 1e-4
+  bins: 64

@@ -1,0 +1,10 @@
+lr: 1e-4
+lr_decay_step: 1400
+
+trainer:
+    max_epochs: 1500
+    log_every_n_steps: 10
+    check_val_every_n_epoch: 10
+    fast_dev_run: False
+    limit_train_batches: 1.0
+    limit_val_batches: 1.0

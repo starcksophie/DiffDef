@@ -1,0 +1,11 @@
+type: 'cardiac_ukbb'
+dataset:
+  data_dir_path:
+  evaluate: True
+  crop_size: [160, 160]
+  slice_range:
+  slicing: [0.25, 0.5, 0.75]
+
+dataloader:
+  batch_size: 1
+  num_workers: 8
